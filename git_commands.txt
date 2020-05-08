@@ -1,0 +1,65 @@
+
+// configuring user email and user name
+
+git config --global user.email "kaustubh.shahane@gmail.com"
+
+git config --global user.name "kaustubh0588"
+
+// go to the folder path
+
+cd <folder path>
+
+// create hidden git file into the folder so that git can track the folder
+
+git init
+
+// in case you want to see the hidden file 
+
+defaults write com.apple.finder AppleShowAllFiles YES
+defaults write com.apple.finder AppleShowAllFiles NO
+
+// to create txt file into the folder 
+
+touch filename.txt
+
+// to check if there are any untracked files inside the folder 
+
+git status
+
+// to add the file in git 
+
+git add filename.ext
+
+// to add all the file from folder it git
+
+git add .
+
+// to commit the added file in git
+
+git commit -m “message”
+
+// to add committed file to git hub repository 
+
+git remote add origin https://git repository path
+
+// for the final push of the file
+
+git push -u origin master
+
+
+
+
+
+
+// to see all the activities performed in git
+
+git log
+
+// to see all the available options we can perform in git
+
+git --help
+
+
+
+
+
